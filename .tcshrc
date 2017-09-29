@@ -1,0 +1,6 @@
+if ( $?prompt ) then
+        set history=1000
+        set savehist=(1000 merge)
+        set histfile=~/.history
+endif
+setenv LANG en_US.iso88591
